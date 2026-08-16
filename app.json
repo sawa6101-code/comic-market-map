@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "コミケマップ PWA",
+    "slug": "comiket-map-beta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single",
+      "description": "C108コミケマップ＆完了チェックアプリ",
+      "themeColor": "#2196F3",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "web": {
+            "favicon": "./assets/favicon.png"
+          }
+        }
+      ]
+    ]
+  }
+}
